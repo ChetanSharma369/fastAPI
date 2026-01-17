@@ -56,7 +56,7 @@ app.include_router(vote.router)
 #### USERS module for get post put delete CRUD operations through raw sql
 @app.get("/")
 def get():
-    return {"msg":"hello world"}
+    return {"msg":"Hello World!!!"}
 
 #POST
 @app.post("/users/",status_code=status.HTTP_201_CREATED)
